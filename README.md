@@ -5,12 +5,20 @@
 * Redis
 
 
+## To run the Docker Compose
+
+```
+sudo docker-compose build
+sudo docker-compose up
+```
+
 ## To install dependencies run:
 
 ```
 pip3 install flask
 pip3 install redis
 ```
+
 
 ## To run the tests run:
 
@@ -25,4 +33,3 @@ cd key-value-store-application/
 export FLASK_APP=app.py
 flask run
 ```
-
